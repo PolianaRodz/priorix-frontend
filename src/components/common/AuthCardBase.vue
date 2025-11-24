@@ -33,7 +33,11 @@
   left: 0;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background-image: url("@/assets/imgs/background-texture-black.jpg");
+=======
+  background-image: url("../assets/imgs/background-texture-black.jpg");
+>>>>>>> 078cf9d6a62896aa48411a2becd8498f340af150
   background-size: 105% 105%;
   background-position: center top;
   background-repeat: no-repeat;
