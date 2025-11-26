@@ -178,7 +178,7 @@ Para o funcionamento completo do sistema (Login, Kanban e IA), é necessário ro
 
 ```bash
 # Clone o repositório - frontend
-git clone 
+git clone https://github.com/PolianaRodz/priorix-frontend.git
 
 # Entre na pasta do projeto
 cd priorix-frontend
