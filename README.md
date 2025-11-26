@@ -134,6 +134,25 @@ export function formatTaskPayload(task, priorityId, responsibleId) {
 
 ```
 
+### - Encapsulamento de Lógica (Getters)
+Em vez de escrever filtros complexos e repetitivos dentro dos templates Vue (v-for="task in tasks.filter(...)), utilizamos Getters no Pinia com nomes semânticos. Isso deixa o HTML limpo e a lógica de negócio testável e centralizada.
+
+``` JavaScript
+
+// src/stores/kanbanStore.js
+getters: {
+  // O componente pede "tasksTodo", ele não precisa saber COMO filtrar.
+  tasksTodo: (state) =>
+    state.columns.find((c) => c.id === COLUMN_ID.TODO)?.tasks || [],
+
+  completedTasks: (state) =>
+    state.columns.find((c) => c.id === COLUMN_ID.DONE)?.tasks || [],
+    
+  // ...
+},
+
+```
+
 ## Funcionalidades Principais
 
 Quadro Kanban Interativo:
