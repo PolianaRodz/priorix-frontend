@@ -3,7 +3,7 @@
   # Priorix - Frontend
   ### Gestão de Tarefas Inteligente com Kanban & IA.
 
-  ![LOGO](projeto.gif)
+  ![LOGO](src/assets/imgs/projeto.gif)
 
 </div>
 
