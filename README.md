@@ -221,6 +221,23 @@ dotnet run
 ```
 
 ---
+**Integrantes do Projeto:**
+
+Poliana Rodriguez - 2000444
+
+Eder Luiz - 1971959
+
+Daniele Borges - 1989236
+
+Barbara Rebecchi - 1987862
+
+Otavio augusto - 1999877
+
+Vinicius Miguel - 2002638
+
+Caio Garbin -1988521
+
+---
 
 <div align="center">
 
